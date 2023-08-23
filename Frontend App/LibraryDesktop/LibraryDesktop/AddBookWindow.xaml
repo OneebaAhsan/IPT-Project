@@ -1,0 +1,28 @@
+﻿<Window x:Class="LibraryDesktop.AddBookWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LibraryDesktop"
+        mc:Ignorable="d"
+        Title="AddBookWindow" Height="550" Width="417">
+    <Grid>
+        <Label Content="Add A Book" FontSize="18" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Width="128"/>
+        <Button Content="Add Book" HorizontalAlignment="Center" VerticalAlignment="Top" Height="28" Width="134" Margin="0,479,0,0" Click="Button_Click"/>
+        <Label Content="Title: " HorizontalAlignment="Left" Margin="69,53,0,0" VerticalAlignment="Top" Height="26" Width="38"/>
+        <TextBox Name="title" HorizontalAlignment="Left" Margin="118,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top"  Width="233" Height="22"/>
+        <Label Content="Description: " HorizontalAlignment="Left" Margin="31,94,0,0" VerticalAlignment="Top" Height="26" Width="76"/>
+        <TextBox Name="desc" HorizontalAlignment="Left" Margin="118,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top"  Width="233" Height="22"/>
+        <Label Content="Category: " HorizontalAlignment="Left" Margin="43,135,0,0" VerticalAlignment="Top" Height="26" Width="64"/>
+        <TextBox  Name="category" HorizontalAlignment="Left" Margin="118,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top"  Width="233" Height="22"/>
+        <Label Content="Author: " HorizontalAlignment="Left" Margin="43,176,0,0" VerticalAlignment="Top" Height="26" Width="52"/>
+        <TextBox Name="author" HorizontalAlignment="Left" Margin="118,178,0,0" TextWrapping="Wrap" VerticalAlignment="Top"  Width="233" Height="22"/>
+        <Label Content="Price: " HorizontalAlignment="Left" Margin="43,217,0,0" VerticalAlignment="Top" Height="26" Width="64"/>
+        <TextBox Name="price" HorizontalAlignment="Left" Margin="118,219,0,0" TextWrapping="Wrap" VerticalAlignment="Top"  Width="233" Height="22"/>
+        <Label Content="Complexity: " HorizontalAlignment="Left" Margin="35,258,0,0" VerticalAlignment="Top" Height="26" Width="72"/>
+        <TextBox Name="complex" HorizontalAlignment="Left" Margin="118,260,0,0" TextWrapping="Wrap" VerticalAlignment="Top"  Width="233" Height="22"/>
+        <Label Content="Cover Image: " HorizontalAlignment="Left" Margin="17,299,0,0" VerticalAlignment="Top" Height="26" Width="90"/>
+        <Button Name="FileName" Content="Pick Image" HorizontalAlignment="Left" Margin="112,301,0,0" VerticalAlignment="Top" Width="233" Height="22" Click="FileName_Click"/>
+        <Image Name="selectedPhoto" HorizontalAlignment="Left" Height="100" Margin="157,356,0,0" VerticalAlignment="Top" Width="100"/>
+    </Grid>
+</Window>

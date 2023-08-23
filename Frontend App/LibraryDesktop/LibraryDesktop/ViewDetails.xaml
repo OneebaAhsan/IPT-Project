@@ -1,0 +1,18 @@
+﻿<Window x:Class="LibraryDesktop.ViewDetails"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LibraryDesktop"
+        mc:Ignorable="d"
+        Title="ViewDetails" Height="450" Width="800">
+    <Grid>
+        <Label Name="titleBar" Content="Title" HorizontalContentAlignment="Center" FontSize="28" HorizontalAlignment="Center" Margin="0,33,0,0" VerticalAlignment="Top" Width="200"/>
+        <Label Name="priceBar" Content="Price" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="32,99,0,0" VerticalAlignment="Top" Width="200"/>
+        <Label Name="categoryBar" Content="Categ" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="590,99,0,0" VerticalAlignment="Top" Width="200"/>
+        <Label Name="descBar" Content="Desc" HorizontalAlignment="Center" Margin="0,160,0,0" VerticalAlignment="Top" Width="747" Height="137"/>
+        <Label Name="authorBar" Content="Author" HorizontalAlignment="Left" Margin="32,363,0,0" VerticalAlignment="Top" Width="200"/>
+        <Label Name="complexityBar" Content="Comp" HorizontalAlignment="Left" Margin="32,332,0,0" VerticalAlignment="Top" Width="200"/>
+
+    </Grid>
+</Window>
